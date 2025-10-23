@@ -15,6 +15,13 @@ import ComFunctProps1 from './components/ComFunctProps1';
 import ComFunctProps3 from './components/ComFunctProps3';
 import ComFunctProps4Object from './components/ComFunctProps4Object';
 import ComFunctProps5Child from './components/ComFunctProps5Child';
+import Event1 from './components/Event1';
+import Event2 from './components/Event2';
+import Event3 from './components/Event3';
+import Event4Change from './components/Event4Change';
+import Event5Change from './components/Event5Change';
+import Event6ChangeRadio from './components/Event6ChangeRadio';
+import Event7ChangeSelect from './components/Event7ChangeSelect';
 import Jsx1Variable from './components/Jsx1Variable';
 import Jsx2Function from './components/Jsx2Function';
 import Jsx3If from './components/Jsx3If';
@@ -25,6 +32,8 @@ import List2Object from './components/List2Object';
 import List3Object from './components/List3Object';
 import List4Object from './components/List4Object';
 import List5Product from './components/List5Product';
+import List6Filter from './components/List6Filter';
+import List7Filter from './components/List7Filter';
 
 const user = {
   name: "책상",
@@ -92,16 +101,29 @@ function App() {
       <ComCondition2Funct />
       <ComCondition3 />
       <ComConditionLogin4 /> */}
-      <ComConditionLogin5 />
-      
+      {/* <ComConditionLogin5 />
+
 
       <h2>리스트 렌더링</h2>
       <List1 />
       <List2Object />
       <List3Object />
       <List4Object />
-      <List5Product />
+      <List5Product /> */}
+      <List6Filter />
+      <List7Filter />
 
+      <h2>이벤트</h2>
+      <p>마우스 이벤트 - onClick, onMouseLeave, onMouseOver, onMouseOut</p>
+      <p>키보드 이벤트 - onKeyDown, onKeyUp</p>
+      <p>폼 이벤트 - onChange(입력값이 변경될때), onInput(입력할때마다)</p>
+      <Event1 />
+      <Event2 />
+      <Event3 />
+      <Event4Change />
+      <Event5Change />
+      <Event6ChangeRadio />
+      <Event7ChangeSelect />
     </div>
   );
 }
