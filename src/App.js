@@ -16,12 +16,16 @@ import ComFunctProps3 from './components/ComFunctProps3';
 import ComFunctProps4Object from './components/ComFunctProps4Object';
 import ComFunctProps5Child from './components/ComFunctProps5Child';
 import Event1 from './components/Event1';
+import Event10Member from './components/Event10Member';
+import Event11 from './components/Event11';
 import Event2 from './components/Event2';
 import Event3 from './components/Event3';
 import Event4Change from './components/Event4Change';
 import Event5Change from './components/Event5Change';
 import Event6ChangeRadio from './components/Event6ChangeRadio';
 import Event7ChangeSelect from './components/Event7ChangeSelect';
+import Event8Submit from './components/Event8Submit';
+import Event9Multi from './components/Event9Multi';
 import Jsx1Variable from './components/Jsx1Variable';
 import Jsx2Function from './components/Jsx2Function';
 import Jsx3If from './components/Jsx3If';
@@ -34,6 +38,13 @@ import List4Object from './components/List4Object';
 import List5Product from './components/List5Product';
 import List6Filter from './components/List6Filter';
 import List7Filter from './components/List7Filter';
+import StateUp0 from './components/StateUp0';
+import StateUp1 from './components/StateUp1';
+import StateUp2 from './components/StateUp2';
+import StateUp3 from './components/StateUp3';
+import StateUp4 from './components/StateUp4';
+import StateUp5 from './components/StateUp5';
+import StateUp6 from './components/StateUp6';
 
 const user = {
   name: "책상",
@@ -61,8 +72,8 @@ function App() {
       c : component
       e : export */}
 
-
-      {/* <h2>jsx 문법 알아보기</h2>
+{/* 
+      <h2>jsx 문법 알아보기</h2>
       <p>1. 부모요소가 반드시 하나가 감싸는 형태여야한다</p>
       <p>2. 자바스크립트 표현식(변수와 수식)을 사용할 수 있다 - { }로 묶어서 사용한다. </p>
       <p>3. 조건문 삼항조건연산자를 주로 사용한다</p>
@@ -88,7 +99,7 @@ function App() {
         <p>컴포넌트 안에 내용을 넣을 수 있어요</p>
       </ComFunctProps5Child> */}
 
-      {/* <h2>컴포넌트 합성</h2>
+      <h2>컴포넌트 합성</h2>
       <p>재사용</p>
       <ComCombine1/>
       <ComCombine2Object />
@@ -100,8 +111,8 @@ function App() {
       <ComCondition1Class />
       <ComCondition2Funct />
       <ComCondition3 />
-      <ComConditionLogin4 /> */}
-      {/* <ComConditionLogin5 />
+      <ComConditionLogin4 />
+      <ComConditionLogin5 />
 
 
       <h2>리스트 렌더링</h2>
@@ -109,8 +120,8 @@ function App() {
       <List2Object />
       <List3Object />
       <List4Object />
-      <List5Product /> */}
-      <List6Filter />
+      <List5Product />
+      {/* <List6Filter />
       <List7Filter />
 
       <h2>이벤트</h2>
@@ -122,8 +133,21 @@ function App() {
       <Event3 />
       <Event4Change />
       <Event5Change />
-      <Event6ChangeRadio />
-      <Event7ChangeSelect />
+      <Event6ChangeRadio /> */}
+      {/* <Event7ChangeSelect />
+      <Event8Submit />
+      <Event9Multi />
+      <Event10Member />
+      <Event11 /> */}
+
+      {/* <h2>컴포넌트 간 데이터 전달</h2>
+      <StateUp0 />
+      <StateUp1 />
+      <StateUp2 />
+      <StateUp3 />
+      <StateUp4 />
+      <StateUp5 />
+      <StateUp6 /> */}
     </div>
   );
 }
